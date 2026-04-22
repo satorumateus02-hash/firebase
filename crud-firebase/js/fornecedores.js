@@ -4,8 +4,8 @@ $("#salvar").click( function (){
     let nome = $("#nome").val();
     let email = $("#email").val();
     let cnpj = $("#cnpj").val();
-    let estado = $("#estado").val();
-
+    let estado = $("input[name='estado']:checked").val();
+    
     if(nome === "" || email ==="" || cnpj ==="" || estado ==="")
     {
         alert('Prencha todos os campos');
