@@ -1,4 +1,4 @@
-const ref = ab.ref("categorias");
+const ref = db.ref("categorias");
 
 $("#salvar").click(function () {
     let nome = $("#nome").val();
