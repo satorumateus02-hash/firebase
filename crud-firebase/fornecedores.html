@@ -40,13 +40,18 @@
         <h3>Cadastro do Fornecedor</h3>
         <input type="text" id="nome" class="form-control mb-2" placeholder="Nome">
         <input type="email" id="email" class="form-control mb-2" placeholder="Email">
-         <input type="number" id="cnpj" class="form-control mb-2" placeholder="CNPJ ">
-         <label>Selecione seu estado: </label>
-        <select id="estado" name="estado">
-            <option value="SP">SP</option>
-            <option value="RJ">RJ</option>
-            <option value="MG">MG</option>
-        </select>
+         <input type="number" class="form-control mb-2" placeholder="CNPJ ">
+         
+        <label>Selecione seu estado: </label><br>
+        <input type="radio" id="estado" name="estado" value="SP">
+        <label for="apple">SP</label><br>
+
+        <input type="radio" id="estado" name="estado" value="RJ">
+        <label for="apple">RJ</label><br>
+
+        <input type="radio" id="estado" name="estado" value="MG">
+        <label for="apple">MG</label>
+
         <br><br>
         <button id="salvar" class="btn btn-primary">Salvar</button>
         <table class="table mt-3 table-bordered table-striped table-hover table-sm">
