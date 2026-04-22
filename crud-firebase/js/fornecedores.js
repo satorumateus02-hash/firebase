@@ -1,4 +1,4 @@
-const ref = eb.ref("fornecedores");
+const ref = db.ref("fornecedores");
 
 $("#salvar").click( function (){
     let nome = $("#nome").val();
