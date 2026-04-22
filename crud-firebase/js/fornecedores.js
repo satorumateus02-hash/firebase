@@ -20,6 +20,6 @@ $("#salvar").click( function (){
         $("#nome").val("");
         $("#email").val("");
         $("#cnpj").val("");
-        $("#estado").val("");
+        $("input[name='estado']").prop("checked", false);        
         $("#nome").focus("");
     }
